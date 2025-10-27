@@ -7,10 +7,10 @@ export function Hero() {
     <section className="px-6 py-16 border-b border-border">
       <div className="max-w-4xl">
         <Badge variant="secondary" className="mb-4">
-          Version 2.0.0 • Updated Oct 2025
+          Version 1.0.0 • Updated Oct 2025
         </Badge>
 
-        <h1 className="text-5xl font-bold text-foreground mb-6 text-balance">Design System Documentation</h1>
+        <h1 className="text-5xl font-bold text-foreground mb-6 text-balance">GameNode Design System</h1>
 
         <p className="text-xl text-muted-foreground mb-8 leading-relaxed max-w-2xl">
           A comprehensive design system built for scale. Create consistent, accessible, and beautiful user interfaces

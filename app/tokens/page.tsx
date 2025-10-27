@@ -4,20 +4,28 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 
 const colorTokens = [
-  { name: "Primary", value: "oklch(0.7 0.19 230)", hex: "#5B8EF5", usage: "Primary actions, links, focus states" },
-  { name: "Background", value: "oklch(0.09 0 0)", hex: "#171717", usage: "Main background color" },
-  { name: "Foreground", value: "oklch(0.98 0 0)", hex: "#FAFAFA", usage: "Primary text color" },
-  { name: "Muted", value: "oklch(0.18 0 0)", hex: "#2D2D2D", usage: "Subtle backgrounds, disabled states" },
-  { name: "Border", value: "oklch(0.2 0 0)", hex: "#333333", usage: "Borders, dividers" },
+  { name: "Primary", value: "oklch(0.6492 0.2045 35.23)", hex: "#F15025", usage: "Primary actions, links, focus states" },
+  { name: "Background", value: "oklch(0.2308 0 0)", hex: "#1D1D1D", usage: "Main background color" },
+  { name: "White", value: "oklch(0.9189 0 0)", hex: "#E4E4E4", usage: "Primary text color" },
+  { name: "Danger", value: "oklch(0.6112 0.2242 26.44)", hex: "#EC2D30", usage: "Subtle backgrounds, disabled states" },
+  { name: "Success", value: "oklch(0.6137 0.1427 157.38)", hex: "#0C9D61", usage: "Borders, dividers" },
+  { name: "Warning", value: "oklch(0.7743 0.1709 65.33)", hex: "#FE9B0E", usage: "Borders, dividers" },
 ]
 
 const spacingTokens = [
+  { name: "xxs", value: "0.125rem", pixels: "2px" },
   { name: "xs", value: "0.25rem", pixels: "4px" },
+  { name: "ssm", value: "0.375rem", pixels: "6px" },
   { name: "sm", value: "0.5rem", pixels: "8px" },
+  { name: "ssm", value: "0.75rem", pixels: "12px" },
   { name: "md", value: "1rem", pixels: "16px" },
+  { name: "slg", value: "1.25rem", pixels: "20px" },
   { name: "lg", value: "1.5rem", pixels: "24px" },
   { name: "xl", value: "2rem", pixels: "32px" },
+  { name: "xxl", value: "2.5rem", pixels: "40px" },
   { name: "2xl", value: "3rem", pixels: "48px" },
+  { name: "3xl", value: "4rem", pixels: "64px" },
+  { name: "4xl", value: "5rem", pixels: "80px" },
 ]
 
 export default function TokensPage() {
@@ -96,7 +104,7 @@ export default function TokensPage() {
                 <CardContent className="p-6 space-y-6">
                   <div>
                     <div className="text-4xl font-bold text-foreground mb-2">Heading 1</div>
-                    <p className="text-sm text-muted-foreground font-mono">36px / 2.25rem • font-bold</p>
+                    <p className="text-sm text-muted-foreground font-mono">30px / 2.25rem • font-bold</p>
                   </div>
                   <div>
                     <div className="text-3xl font-bold text-foreground mb-2">Heading 2</div>

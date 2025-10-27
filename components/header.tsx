@@ -16,9 +16,6 @@ export function Header() {
               placeholder="Search documentation..."
               className="pl-10 bg-secondary border-border text-foreground placeholder:text-muted-foreground"
             />
-            <kbd className="absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none inline-flex h-5 select-none items-center gap-1 rounded border border-border bg-muted px-1.5 font-mono text-[10px] font-medium text-muted-foreground">
-              ⌘K
-            </kbd>
           </div>
         </div>
 
