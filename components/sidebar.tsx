@@ -23,13 +23,10 @@ export function Sidebar() {
   return (
     <aside className="w-64 border-r border-border bg-sidebar flex flex-col">
       <div className="p-6 border-b border-sidebar-border">
-        <div className="flex items-center gap-2">
-          <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-            <Sparkles className="w-5 h-5 text-primary-foreground" />
-          </div>
-          <div>
-            <h1 className="text-lg font-semibold text-sidebar-foreground">Design System</h1>
-            <p className="text-xs text-muted-foreground">v2.0.0</p>
+        <div className="flex items-center gap-5">
+          <div className="space-y-3">
+            <img src="/nodeslogo.svg" alt="Nodes" />
+            <p className="text-xs text-muted-foreground">v1.0.0</p>
           </div>
         </div>
       </div>
